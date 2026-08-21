@@ -1,24 +1,24 @@
 class Zatsu < Formula
   desc "Code outline viewer for LLMs"
   homepage "https://github.com/shohei81/zatsu"
-  version "0.1.1"
+  version "0.1.2"
   license "GPL-3.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/shohei81/zatsu/releases/download/v0.1.1/zatsu-aarch64-darwin.tar.gz"
-      sha256 "f2f19fb7f4b7eed29a5460e22fb7d24ab77b806a1bd57bf9e6a8e565ae9d6cdb"
+      url "https://github.com/shohei81/zatsu/releases/download/v0.1.2/zatsu-aarch64-darwin.tar.gz"
+      sha256 "b9505776fa1f4abbab69f0c9d124efa25c44fcfbe5705cca71c5797336479cae"
     end
     on_intel do
-      url "https://github.com/shohei81/zatsu/releases/download/v0.1.1/zatsu-x86_64-darwin.tar.gz"
-      sha256 "c31c75e6afb43da212c1178b668b16e5eb032b53de261d76e7c731a646f3e37d"
+      url "https://github.com/shohei81/zatsu/releases/download/v0.1.2/zatsu-x86_64-darwin.tar.gz"
+      sha256 "2476e3b3b98803c249be90792c5f7fd11f3a315070eb1d115c6d7d1c8b83052f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/shohei81/zatsu/releases/download/v0.1.1/zatsu-x86_64-linux.tar.gz"
-      sha256 "3d7351fde4b9619d7b5dde1d5ecfb85c9b2b0576e37aa56e74c8032f831618e8"
+      url "https://github.com/shohei81/zatsu/releases/download/v0.1.2/zatsu-x86_64-linux.tar.gz"
+      sha256 "1fd39d573f0013e3e0f949041eec296258b71494ad82bb05c491636013459c04"
     end
   end
 
